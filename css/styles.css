@@ -19,6 +19,7 @@ body {
   background-color: var(--line-color);
   color: var(--primary-text-color);
   list-style: none;
+  margin: 0;
 }
 
 .container {
@@ -26,7 +27,10 @@ body {
   height: auto;
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 24px;
+  padding-top: 24px;
   margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,7 +45,7 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  margin: right 93px;
+
   letter-spacing: 0.03em;
 }
 .logo:hover,
@@ -134,23 +138,18 @@ body {
 
 .nav {
   display: flex;
-  margin-right: 30px;
   align-items: center;
 }
 
 .page-heder {
   border-bottom: 1px solid #ececec;
   background-color: var(--line-color);
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
+
   margin: 0 auto;
-  padding-bottom: 15px;
-  padding-top: 15px;
 }
 .main-part {
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 .main-text {
   margin-top: 0;
@@ -172,9 +171,7 @@ body {
   font-size: 16px;
   line-height: 30px;
   text-align: center;
-  letter-spacing: center;
   margin: auto;
-  margin-bottom: 200px;
   padding-bottom: 0;
 }
 
@@ -207,9 +204,7 @@ body {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  margin-left: 30px;
-  margin-top: 50px;
-  margin-bottom: 94px;
+  margin-left: 0;
 }
 
 .portfolio-part {
@@ -222,14 +217,17 @@ body {
   flex-basis: calc(100% - 90px) / 3;
 }
 .card-name .card-type {
-  padding: 20px 0 4px 24px;
+  padding: 20px 24px 0 24px;
 }
-
+.card-name {
+  padding: 20px 24px 0 24px;
+}
+.card-type {
+  padding: 20px 0 20px 24px;
+}
 .button-second {
   background-color: #f5f4fa;
   color: var(--primary-text-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 62;
@@ -237,6 +235,7 @@ body {
   letter-spacing: 0.03em;
   cursor: pointer;
   border: none;
+  padding: 6px 22px 6px 22px;
 }
 .button-second:hover {
   color: var(--accent-color);
@@ -254,18 +253,16 @@ body {
 .but-second {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
-  margin-bottom: 50px;
 }
 
 .container-se {
   width: 1200px;
-  margin-right: px;
+  margin-right: auto;
   margin-left: auto;
-  display: flex;
-  align-items: center;
   margin-top: 94px;
   margin-bottom: 50px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main-part {
@@ -279,19 +276,18 @@ body {
   justify-content: center;
   padding: 0px;
   margin: 0px;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .section-tittle-list :not(:last-child) {
   margin-right: 30px;
 }
 
-.infotmation {
+.information {
   display: flex;
   margin: 0px;
   padding: 0px;
   display: flex;
-  width: 270px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .informing {
   color: var(--primary-text-color);
@@ -311,7 +307,7 @@ body {
   margin: 0px;
   padding: 0px;
   padding-top: 0px;
-  padding-bottom: 50px;
+  padding-bottom: 94px;
 }
 .foto-list {
   background-color: var(--line-color);
@@ -332,8 +328,6 @@ body {
   justify-content: center;
   padding: 0px;
   margin: 0px;
-  padding-top: 50px;
-  padding-bottom: 94px;
 }
 .team-list .team-item :not(:last-child) {
   margin-right: 30px;
@@ -353,9 +347,8 @@ body {
   justify-content: center;
   padding: 0px;
   margin: 0px;
-  padding-top: 94px;
-  padding-bottom: 50px;
   display: flex;
+  padding-bottom: 50px;
 }
 
 .member-first {
@@ -413,4 +406,15 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   padding-left: 215px;
+}
+
+.main-pact {
+  padding-bottom: 94px;
+  display: flex;
+}
+.container-footer {
+  width: 1200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
